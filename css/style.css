@@ -7,3 +7,28 @@
 body {
     font-family: sans-serif;
 }
+
+div {
+    /* background: red; */
+    color: white;
+}
+
+.box {
+    background: #006CFA;
+    color: white;
+    min-height: 3em;
+    margin: 0.15em;
+    padding: 1em;
+}
+
+.boxNest {
+    background: #00E164;
+    color: white;
+    height: 3em;
+    margin: 0.15em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
